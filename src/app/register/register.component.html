@@ -5,19 +5,42 @@
   <div class="page-box">
     <a routerLink="/login" class="align-center">Have an account?</a>
     <div class="column">
+      <label><b>Username</b></label>
+      <input
+        type="text"
+        name="myUsername"
+        id="myUsername"
+        class="el-input"
+        placeholder="Enter username"
+        [(ngModel)]="username"
+      >
+    </div>
+    <div class="column">
         <label><b>Email</b></label>
-        <input class="el-input" type="text" placeholder="Enter email">
+        <input
+          type="text"
+          name="myEmail"
+          id="myEmail"
+          class="el-input"
+          placeholder="Enter email"
+          [(ngModel)]="email"
+        >
       </div>
       <div class="column">
         <label><b>Password</b></label>
-        <input class="el-input" type="text" placeholder="Enter password">
+        <input
+          type="password"
+          name="myPassword"
+          id="myPassword"
+          class="el-input"
+          placeholder="Enter password"
+          required
+          minlength="8"
+          [(ngModel)]="password"
+        >
       </div>
-      <div class="column">
-          <label><b>Repeat Password</b></label>
-          <input class="el-input" type="text" placeholder="Repeat Password">
-        </div>
       <div class="column align-center">
-        <button onclick="" type="button" class="button el-button">Sign Up</button>
+        <button type="button" class="button el-button" (click)="submit()">Sign Up</button>
       </div>
   </div>
 </div>

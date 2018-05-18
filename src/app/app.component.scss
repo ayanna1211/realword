@@ -16,7 +16,7 @@
     width: 50%;
     letter-spacing: 1px;
     float: left;
-    color: #006c61;
+    color: #c46913;
   }
 
   .navigation {
@@ -29,14 +29,15 @@
       font-size: 93%;
       line-height: 1.231;
       display: inline;
-      color: #006c61;
+      color: #c46913;
 
       a {
-        color: #006c61;
+        color: #c46913;
         padding: 0 9px;
 
         &:hover {
-          opacity: 0.6;
+          text-decoration: underline;
+          color: #983900;
         }
       }
     }
