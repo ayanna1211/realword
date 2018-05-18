@@ -1,0 +1,212 @@
+/* You can add global styles to this file, and also import other style files */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.headline-area {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background-color: #006c61;
+
+  h2 {
+    position: relative;
+    font-size: 30px;
+    line-height: 1.66;
+    padding-top: 5px;
+    text-align: center;
+    color: #eaeaea;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }
+}
+
+.align-center {
+  text-align: center;
+}
+
+.page-box {
+  margin: 0 auto;
+  padding: 40px 0 60px 0;
+  max-width: 80%;
+
+  a {
+    display: block;
+    font-size: 130%;
+    line-height: 2;
+    margin-bottom: 1.5em;
+    letter-spacing: 0;
+    color: #006c61;
+  }
+}
+
+.el-input {
+  margin: 0;
+  outline: none;
+  -webkit-appearance: none;
+  tap-highlight-color: hsla(0,0%,100%,0);
+  line-height: 1.21428571em;
+  padding: .67857143em 1em;
+  font-size: 1em;
+  background: #fff;
+  border: 1px solid rgba(34,36,38,.15);
+  color: rgba(0,0,0,.87);
+  border-radius: .28571429rem;
+  box-shadow: inset 0 0 0 0 transparent;
+  transition: color .1s ease,border-color .1s ease;
+  width: 100%;
+  box-sizing: border-box;
+
+  &:hover {
+    border-color: #006c61;
+  }
+}
+
+label {
+  color: #555;
+  font-weight: normal;
+  padding-bottom: 0;
+}
+
+.column {
+  display: block;
+
+  label {
+    display: block;
+    margin: 1rem 0;
+    color: rgba(0,0,0,.87);
+    font-size: .92857143em;
+    font-weight: 700;
+    text-transform: none;
+  }
+}
+
+.button {
+  cursor: pointer;
+  border: 0;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 5px;
+  font-size: 1.68rem;
+  line-height: 1.4;
+  font-weight: bold;
+  color: #fff;
+  background-color: #006c61;
+  -webkit-box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  text-align: center;
+  -webkit-transition: -webkit-box-shadow .3s, -webkit-transform .3s;
+  transition: -webkit-box-shadow .3s, -webkit-transform .3s;
+  transition: box-shadow .3s, transform .3s;
+  transition: box-shadow .3s, transform .3s, -webkit-box-shadow .3s, -webkit-transform .3s;
+  display: inline-block;
+  min-width: 290px;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  font-size: 1.6rem;
+
+  &:hover {
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.el-button {
+  margin: 1rem auto;
+}

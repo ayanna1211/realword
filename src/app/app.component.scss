@@ -1,0 +1,44 @@
+.header {
+  position: relative;
+
+  .inner {
+    height: 39px;
+    position: relative;
+    width: 1134px !important;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .txt-note {
+    font-size: 93%;
+    line-height: 1.231;
+    padding-top: 12px;
+    width: 50%;
+    letter-spacing: 1px;
+    float: left;
+    color: #006c61;
+  }
+
+  .navigation {
+    width: 225px;
+    float: right;
+    text-align: right;
+    padding-top: 12px;
+
+    li {
+      font-size: 93%;
+      line-height: 1.231;
+      display: inline;
+      color: #006c61;
+
+      a {
+        color: #006c61;
+        padding: 0 9px;
+
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}

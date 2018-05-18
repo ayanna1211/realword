@@ -1,0 +1,32 @@
+.banner {
+  text-align: center;
+  padding-top: 56px;
+  height: 414px;
+  margin-bottom: 50px;
+  background-color: #006c61;
+  overflow: hidden;
+  position: relative;
+
+  .inner {
+    position: relative;
+    height: 414px;
+    width: 942px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .txt-area {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 53px;
+    color: #eaeaea;
+  }
+
+  .img-area {
+    position: absolute;
+    top: 0;
+    left: 560px;
+    width: 300px;
+  }
+}
